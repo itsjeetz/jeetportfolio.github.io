@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=Raleway:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.sidebar{
+    background-color:rgb(191, 230, 191);
+    width: 13vw;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style:none;
+    font-size: 30px;
+    padding: 32px 0;
+}
+.sidebar nav a{
+    text-decoration: none;
+    color: black ;
+}
+.sidebar nav a:hover{
+    letter-spacing: 5px;
+    color: brown;
+    transition:ease;
+}
+.main{
+    background-color: rgb(161, 61, 61);
+    background-image: url('img/backg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 87%;
+    font-family: 'Raleway', sans-serif;
+}
+.container{
+    display: flex;
+}
+
+.infocontainer{
+   /* background-color: aquamarine;*/
+    height: 60vh;
+    width: 80vw;
+    margin: 55px;
+    display: flex;
+    justify-content: space-around;
+}
+.dev{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 60px;
+    
+}
+.name{
+    font-size: 45px;
+    font-weight: bold;
+}
+.about{
+    font-size: 30px;
+}
+.buttons{
+    margin-top: 34px;
+}
+.buttons button{
+    padding: 10px;
+    border-radius: 34px;
+    background-color: wheat;
+    color: black;
+    margin: 10px;
+    font-weight: bolder;
+    border-color:yellowgreen;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color: black;
+}
+
+.devpic img{
+    padding: 80px 40px;
+    height: 35vh;
+    border-radius: 180px;
+
+}
+
+/*------------------------------------------------------CONTACT PAGE BELOW :)--------------------------------------------------------------*/
+
+.conct{
+    background-image: url("img/backg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 87%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5%;
+}
+
+.conct h2{
+    font-size: 40px;
+    letter-spacing: 2.5px;
+    font-weight: bold;
+}
+
+.conct form{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px 0;
+}
+
+input,
+textarea,
+label{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+input,
+textarea{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid black;
+}
+
+input[type=submit]{
+    background-color: wheat;
+    padding: 15px 0;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    border-bottom: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background: #fff;
+    color: darkgrey;
+}
+
+input,
+textarea{
+    color: #000000;
+    font-size: 18px;
+    padding: 10px;
+}
+
+input:focus,
+textarea:focus{
+    outline: 1px solid;
+}
+
+/*-----------------------------------------------------------hello world page below------------------------*/
+
+.myinfo{
+    background-image: url("img/backg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 87%;
+}
+.infod{
+    width: 50vw;
+    margin: 150px;
+}
+.infod p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------Responsive below-----------------------------------------------------*/
